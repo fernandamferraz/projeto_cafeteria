@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans";
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 150px;
+    background-color: #FDBC3D;
+}
+
+.logo img {
+    width: 200px;
+    padding: 10px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.left-side-menu {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 100px 0;
+    margin-top: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2B3210;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right-side-menu {
+    display: flex;
+    align-items: center;
+}
+
+.icon-carrinho img {
+    width: 30px;
+    margin-top: 0%;
+}
+
+.line {
+    height: 1px;
+    background-color:#3926206b;
+    width: 80%;
+    margin-left: 340px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 2543px;
+    height: 550px;
+    margin-bottom: -50px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.home {
+    background-color: #FDBC3D;
+}
+
+.text {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: #FDBC3D;
+    margin-left: -150px;
+}
+
+.text h1 {
+    margin-top: 150px;
+    width: 900px;
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.text h4 {
+    font-family: "Kumbh Sans";
+    font-weight: 300;
+    font-style: normal;
+    margin: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 800px;
+    margin-left: 60px;
+}
+
+.select-home {
+    margin-bottom: 65px;
+    background-color: #FDBC3D;
+    margin-left: 80%;
+}
+
+.select-home img {
+    margin-top: 30px;
+    height: 480px;
+    width: 480px;
+    margin-left: -295px;
+}
+
+.text-coffees {
+    display: flex;
+    position:absolute;
+    margin-left: 140px;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.text-coffees {
+    color: #4e2f1ed8;
+}
+
+.text-coffees h1 {
+    font-family: "Kumbh Sans";
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.coffees { 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.coffees-items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 calc(25% - 10px);
+}
+
+.coffees {
+    background-color:bisque;
+}
+
+.coffees-items img {
+    height: 530px;
+    width: 530px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.coffes-items-descrition {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-left: -90px;
+    margin-right: -110px;
+}
+
+.coffes-items-descrition h1 {
+    color: #4e2f1ed8;
+}
+
+.coffes-items-descrition p {
+    color: #2B3210;
+    font-size: 14px;
+    text-align: start;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.off {
+    font-size: 12px;
+    color: #4e2f1ea4;
+    text-decoration:line-through;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.options img {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+.options a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.options span {
+    font-size: 12px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #4e2f1e34;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+.minus img, .plus img{
+    height: 10px;
+    width: 10px;
+    margin-top: -2px;
+}
+
+.minus, .plus {
+    cursor: pointer;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fdbd3dce;
+    border-radius: 5px;
+    color: #4e2f1eda;
+    padding: 0px 5px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 600;    
+}
+
+.food-service {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.food-service {
+    background-color: #4e2f1ed7;
+    overflow:auto;
+}
+
+.text-food-service h1 {
+    font-family: "Kumbh Sans";
+    font-weight: 200;
+    font-size: 40px;
+    color: bisque;
+    display: flex;
+    position:absolute;
+    margin-left: 140px;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.food-items {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+.food-items img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin-top: 70px;
+}
+
+.food-items h3, p {
+    color:bisque;
+    text-align: center;
+}
+
+.food-items p {
+    font-family: "Kumbh Sans";
+    font-weight: 200;
+    font-size: 15px;
+    padding: 8px 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#footer{
+    background: bisque;
+    padding-top: 50px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 33.3%;
+}
+
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #4e2f1ed7;
+}
+
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+    color: #4e2f1ed7;
+    font-family: "Kumbh Sans";
+    font-weight: 300;
+
+}
+
+.footer-content ul{
+    text-align: center;
+
+}
+
+.list{
+    padding: 0;
+}
+
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+
+}
+
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+
+}
+
+.list li:hover::before{
+    width: 70px;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #4e2f1ed7;
+}
+
+a:hover{
+    color: #f18930;
+}
+
+.social-icons i:hover{
+    color: #f18930;
+}
+
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
